@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NORTH VILLAGE 新宿歌舞伎町2号店 | モバイル対応デモサイト</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts: Zen Kaku Gothic New -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Zen Kaku Gothic New', sans-serif;
+            background-color: #fffdfa;
+            color: #374151; /* text-gray-700 */
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        /* カスタムアクセントカラー */
+        .accent-color { color: #9a3412; }
+        .bg-accent { background-color: #9a3412; }
+        .border-accent { border-color: #9a3412; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md shadow-sm transition-all duration-300">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <a href="#" class="text-xl font-bold text-gray-800 tracking-wider">
+                    NORTH VILLAGE
+                </a>
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="#about" class="text-gray-600 hover:text-[#9a3412] transition duration-300">ご提案</a>
+                    <a href="#services" class="text-gray-600 hover:text-[#9a3412] transition duration-300">サービス</a>
+                    <a href="#features" class="text-gray-600 hover:text-[#9a3412] transition duration-300">提供価値</a>
+                </nav>
+                <a href="#cta" class="bg-[#9a3412] text-white px-5 py-2 rounded-xl font-medium hover:bg-opacity-80 transition duration-300 shadow-sm">
+                    お問い合わせ
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="relative flex items-center justify-center min-h-[85vh] bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1648462908676-8305f0eff8e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk1ODZ8MHwxfHNlYXJjaHwxfHxjYWZlJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzc0NDYyNDA2fDA&ixlib=rb-4.1.0&q=80&w=1080');">
+            <div class="absolute inset-0 bg-black/60"></div>
+            <div class="relative text-center px-6">
+                <h1 class="text-white font-light text-4xl sm:text-5xl md:text-7xl leading-tight tracking-widest">
+                    新宿歌舞伎町、<br class="md:hidden">極上シーシャを<br>スマホで快適に
+                </h1>
+            </div>
+        </section>
+
+        <!-- About / Greeting Section -->
+        <section id="about" class="py-24 sm:py-32 bg-[#fffdfa]">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-light text-gray-800 tracking-wider mb-8">
+                    NORTH VILLAGE 新宿歌舞伎町2号店様へ<br>モバイル対応デモのご提案
+                </h2>
+                <p class="max-w-3xl mx-auto text-gray-600 leading-relaxed tracking-wide">
+                    NORTH VILLAGE 新宿歌舞伎町2号店様の既存サイトを拝見し、特にスマホでの表示とリダイレクトの警告がお客様の利便性を損ねていると感じました。そこで、貴店の魅力を最大限に引き出し、お客様が快適に情報を得られるよう、モバイルに完全対応したデモサイトを制作いたしました。ぜひ新しいウェブ体験をご覧ください。
+                </p>
+            </div>
+        </section>
+
+        <!-- Services / Approach Section -->
+        <section id="services" class="py-24 sm:py-32 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-20">
+                    <p class="text-[#9a3412] font-semibold tracking-widest mb-2">OUR APPROACH</p>
+                    <h2 class="text-3xl md:text-4xl font-light text-gray-800 tracking-wider">
+                        極上の体験を、指先ひとつで
+                    </h2>
+                    <p class="mt-4 max-w-2xl mx-auto text-gray-500 leading-relaxed">
+                        貴店の魅力を余すことなく伝えるため、洗練されたデザインと直感的な情報設計で、お客様を特別なシーシャ体験へと誘います。
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                    <!-- Service Card 1 -->
+                    <div class="bg-[#fffdfa] p-8 rounded-xl transition duration-500 hover:shadow-xl hover:-translate-y-2">
+                        <div class="flex items-center justify-center bg-white rounded-full w-16 h-16 mb-6 shadow-sm">
+                            <i class="fa-solid fa-leaf text-2xl text-[#9a3412]"></i>
+                        </div>
+                        <h3 class="text-xl font-medium text-gray-800 mb-3 tracking-wide">こだわりのフレーバー</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            世界中から厳選した最高品質のフレーバーを常時100種類以上ご用意。定番から季節限定、ノンニコチンまで、専門スタッフがお客様の好みに合わせた一杯を提案します。
+                        </p>
+                    </div>
+
+                    <!-- Service Card 2 -->
+                    <div class="bg-[#fffdfa] p-8 rounded-xl transition duration-500 hover:shadow-xl hover:-translate-y-2">
+                        <div class="flex items-center justify-center bg-white rounded-full w-16 h-16 mb-6 shadow-sm">
+                            <i class="fa-solid fa-couch text-2xl text-[#9a3412]"></i>
+                        </div>
+                        <h3 class="text-xl font-medium text-gray-800 mb-3 tracking-wide">洗練された空間</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            歌舞伎町の喧騒を忘れさせる、ラグジュアリーで落ち着いた空間。デートや友人との語らいに最適なソファー席や、プライベートな時間を過ごせる個室も完備しています。
+                        </p>
+                    </div>
+
+                    <!-- Service Card 3 -->
+                    <div class="bg-[#fffdfa] p-8 rounded-xl transition duration-500 hover:shadow-xl hover:-translate-y-2">
+                        <div class="flex items-center justify-center bg-white rounded-full w-16 h-16 mb-6 shadow-sm">
+                            <i class="fa-solid fa-martini-glass-citrus text-2xl text-[#9a3412]"></i>
+                        </div>
+                        <h3 class="text-xl font-medium text-gray-800 mb-3 tracking-wide">ドリンク＆フード</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            シーシャとのペアリングを追求したオリジナルカクテルやクラフトビール、こだわりのコーヒーをご提供。軽食やスイーツも充実しており、カフェとしてもお楽しみいただけます。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-24 sm:py-32 bg-[#fffdfa]">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-20">
+                    <p class="text-[#9a3412] font-semibold tracking-widest mb-2">PROPOSED VALUE</p>
+                    <h2 class="text-3xl md:text-4xl font-light text-gray-800 tracking-wider">
+                        新しいウェブサイトがもたらす3つの価値
+                    </h2>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+                    <!-- Feature 1 -->
+                    <div class="flex flex-col items-center">
+                        <div class="mb-6">
+                            <i class="fas fa-mobile-screen-button text-4xl text-[#9a3412]"></i>
+                        </div>
+                        <h3 class="text-xl font-medium text-gray-800 mb-3 tracking-wide">スマホ最適化</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            どんなデバイスでも美しく表示。お客様がいつでもどこでも、ストレスフリーに店舗情報を閲覧できる快適な体験を提供します。
+                        </p>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div class="flex flex-col items-center">
+                        <div class="mb-6">
+                            <i class="fas fa-palette text-4xl text-[#9a3412]"></i>
+                        </div>
+                        <h3 class="text-xl font-medium text-gray-800 mb-3 tracking-wide">直感的なデザイン</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            洗練されたビジュアルと分かりやすい情報設計で、貴店のブランドイメージを高め、魅力を最大限に引き出します。
+                        </p>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div class="flex flex-col items-center">
+                        <div class="mb-6">
+                            <i class="fas fa-magnifying-glass-chart text-4xl text-[#9a3412]"></i>
+                        </div>
+                        <h3 class="text-xl font-medium text-gray-800 mb-3 tracking-wide">SEO強化</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            最新の技術に基づいた検索エンジン最適化により、オンラインでの認知度を向上させ、新規顧客の獲得を強力にサポートします。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="cta" class="bg-white">
+            <div class="container mx-auto px-6 py-24 sm:py-32">
+                <div class="bg-[#fffdfa] rounded-xl p-12 md:p-20 text-center">
+                    <h2 class="text-3xl md:text-4xl font-medium text-gray-900 tracking-tight mb-4">
+                        新しいウェブ体験を、<br class="sm:hidden">始めませんか？
+                    </h2>
+                    <p class="text-gray-600 leading-relaxed max-w-xl mx-auto mb-10">
+                        このデモサイトが貴店のビジネスに貢献できると確信しております。<br>ぜひ一度、詳しいお話をお聞かせください。
+                    </p>
+                    <a href="#" class="inline-block bg-[#9a3412] text-white px-12 py-4 rounded-xl text-lg font-semibold shadow-lg hover:bg-opacity-80 transition-transform duration-300 hover:scale-105">
+                        お問い合わせ・ご相談はこちら
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#fffdfa] text-gray-500 py-12">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-sm tracking-wide">&copy; 2024 NORTH VILLAGE. All Rights Reserved. <br>This is a demonstration page created for proposal purposes.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
